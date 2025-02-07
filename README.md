@@ -1,75 +1,35 @@
-Number Theory Learning in C++
-Overview
+# **Number Theory Algorithms in C++**
 
-This project focuses on learning and implementing number theory algorithms using C++ programming. It covers a range of topics from basic primality testing to more advanced concepts such as the Chinese Remainder Theorem and Pollard’s algorithms. This repository aims to help learners understand number theory through practical coding examples and problem-solving.
-Topics Covered
-Level 1: Basic Number Theory Algorithms
+## **Project Overview**
+This repository contains a comprehensive set of **Number Theory algorithms** implemented in C++. The project covers both basic and advanced topics, providing practical, optimized solutions to key problems in number theory. Whether you are a beginner or an advanced learner, this project aims to help you understand and apply mathematical concepts through algorithmic coding.
 
-    Primality Test
-    Prime Factorization
-    Sieve of Eratosthenes
-    Binary Exponentiation
-    Euclid's Algorithm (GCD)
-    Goldbach's Conjecture
-    Finding the Number of Divisors
-    Calculating Binomial Coefficient
-    Segmented Sieve
-    Modulo Multiplicative Inverse
+The algorithms included range from basic primality testing to more sophisticated techniques such as **Chinese Remainder Theorem** and **Pollard’s Algorithms**. Each algorithm is implemented with clarity and efficiency to ensure ease of learning, experimentation, and modification.
 
-Level 2: Advanced Number Theory Algorithms
+## **Topics Covered**
 
-    Extended Euclidean Algorithm
-    Linear Diophantine Equation
-    Matrix Exponentiation
-    Fibonacci Numbers in O(log n)
-    Chinese Remainder Theorem
-    Euler's Totient Function
-    Sum of Divisors
-    Pollard’s p-1 Method
-    Pollard’s Rho Algorithm
+### **Level 1: Basic Algorithms**
+1. **Primality Test** - A method to check if a number is prime using trial division.
+2. **Prime Factorization** - Breaking down a number into its prime factors.
+3. **Sieve of Eratosthenes** - An efficient algorithm to find all primes up to a specified number.
+4. **Binary Exponentiation** - Fast exponentiation method to calculate large powers efficiently.
+5. **Euclid's Algorithm** - A classic algorithm for finding the greatest common divisor (GCD) of two numbers.
+6. **Goldbach's Conjecture** - A method to check the conjecture that every even integer greater than 2 can be expressed as the sum of two primes.
+7. **Finding the Number of Divisors** - Efficient calculation of the divisors of a given number.
+8. **Binomial Coefficient** - Calculating the number of ways to choose `k` items from `n` items.
+9. **Segmented Sieve** - An optimized version of the Sieve of Eratosthenes for large numbers.
+10. **Modulo Multiplicative Inverse** - Finding the modular inverse of a number.
 
-Project Structure
+### **Level 2: Advanced Algorithms**
+1. **Extended Euclidean Algorithm** - An extension of Euclid's algorithm to find integer solutions to linear Diophantine equations.
+2. **Linear Diophantine Equation** - Solving equations of the form `ax + by = c`.
+3. **Matrix Exponentiation** - Efficient computation of large powers of matrices, particularly used in problems involving recurrence relations.
+4. **Fibonacci Numbers in O(log n)** - An optimized algorithm to calculate Fibonacci numbers in logarithmic time.
+5. **Chinese Remainder Theorem** - A method for solving systems of simultaneous congruences.
+6. **Euler's Totient Function** - An efficient way to compute the number of integers up to `n` that are coprime with `n`.
+7. **Sum of Divisors** - Finding the sum of divisors of a number.
+8. **Pollard's p-1 Method** - A factorization algorithm useful for finding small factors of large numbers.
+9. **Pollard's Rho Algorithm** - A probabilistic algorithm for integer factorization.
 
-Each algorithm is implemented in its own C++ file, with clear and concise comments explaining the logic. The code also includes example inputs and outputs for better understanding.
+## **Project Structure**
 
-/NumberTheory
-    /Level1
-        - primality_test.cpp
-        - prime_factorization.cpp
-        - sieve_of_eratosthenes.cpp
-        ...
-    /Level2
-        - extended_euclid.cpp
-        - diophantine_equation.cpp
-        - matrix_exponentiation.cpp
-        ...
-    README.md
-
-Requirements
-
-    C++ Compiler (g++ recommended)
-    Standard C++ Library
-    Basic knowledge of C++ syntax
-
-How to Use
-
-    Clone the repository:
-
-git clone https://github.com/yourusername/number-theory-learning.git
-
-Compile a specific algorithm:
-
-g++ primality_test.cpp -o primality_test
-
-Run the program:
-
-    ./primality_test
-
-    Modify the code or input values for further experimentation.
-
-Contribution
-
-Feel free to fork the repository, make changes, and submit pull requests if you'd like to contribute new algorithms or optimizations. Please make sure to follow the general code style and comment your changes.
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+The repository is organized into directories based on the difficulty level of the algorithms, ensuring a structured learning path. Each algorithm is implemented in its own C++ file, with clear and concise explanations and well-commented code for ease of understanding.
