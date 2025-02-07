@@ -1,0 +1,18 @@
+
+
+Naive Approach
+--------------
+We will run a loop from 2 to N - 1 and check if any of the numbers divides N or not?
+If divides then N is not a prime. Else N is prime.
+
+Time Complexity : O(N)
+
+
+
+Better Approach
+---------------
+All divisors of N occurs in pairs of (a, b) such that a * b = N.
+For example, 12 has following divisors pairs: (1, 12), (2, 6), (3, 4).
+So, we will run a loop until sqrt(N) and check if any numbers divides N or not? If divides then N is not a prime. Else N is prime.
+
+Time Complexity : O(sqrt(N))

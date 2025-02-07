@@ -1,0 +1,14 @@
+Task: We have to calculate x ^ n.
+
+Naive approach
+--------------
+We will run a loop n times and each time multiply res with the base to have the result.
+
+Time complexity: O(N)
+
+
+Better approach
+---------------
+if the exponent is odd we will multiply res with base, else multiply base with base and divide exp by 2.
+
+Time complexity: O(logN)

@@ -1,0 +1,11 @@
+If the question asks:
+For Q queries, check if a number N is prime or not?
+constraints: (1 <= Q <= 10^5), (1 <= N <= 10^6)
+
+If we check for each number using Primality test (sqrt(N)) the time Complexity will be Q * sqrt(N), which won't pass the time constraints.
+
+Better Approach
+---------------
+We have to precompute all the numbers until MAXN = 10^6 and store information whether it is prime or not in an array. Then find each number prime or not in O(1). 
+
+Time Complexity: O(NloglogN)

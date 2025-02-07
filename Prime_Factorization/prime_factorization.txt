@@ -1,0 +1,24 @@
+Given a number N, we have to find it's prime factorization.
+for example,
+    N = 100 = (2 ^ 2) * (5 ^ 2).
+
+Naive Approach
+--------------
+We run a loop from 2 to N and and check if a number divides N or not, if divides we divide N until it doesn't. After that we print the number and also the exponent.
+
+Time complexity: O(NlogN)
+
+
+Optimized Approach
+------------------
+Instead of N, we will run the loop until sqrt(N).
+
+Time complexity: O(sqrt(N) * logN)
+
+
+SPF
+---
+
+similar to sieve, but here we will store the smallest prime that divides a number.
+This will help us to compute prime factorization in logN time complexity.
+
