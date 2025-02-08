@@ -1,0 +1,15 @@
+Given a matrix A, and an integer we have to find A^n
+
+Naive Approach
+--------------
+Lets take, res = A. We will run a loop to n and each time we multiply A with res to get the ultimate result.
+
+Time complexity : O(A^3 * N)
+
+
+
+Better Approach
+---------------
+We will do the multiplication process using binary exponentiation. This will make the- 
+
+time complexity : O(A^3 * logN)
