@@ -13,3 +13,18 @@ Better Approach
 We will do the multiplication process using binary exponentiation. This will make the- 
 
 time complexity : O(A^3 * logN)
+
+
+Recurrence Relation
+-------------------
+A Recurrence Relation is an equation that defines a sequence based on a rule that gives the next term as a function of the previous terms.
+
+Fibonacci series:
+If n >= 2,   F(n) = F(n - 1) + F(n - 2)     
+F(0) = A
+F(1) = B
+
+[A B] * [0 1] ^ n-1 = [Fn Fn+1]
+        [1 1]
+
+
